@@ -26,7 +26,7 @@ public class Plugin : BaseUnityPlugin
             "Disable injection of this mod. Useful for troubleshooting mods without uninstalling them.");
         _enableIcon = Config.Bind("Options", "EnableIcon", true,
             "Enable adding an icon to the top right corner of the screen to show pickup status");
-        _enableChatAlert = Config.Bind("Options", "Enabled", true,
+        _enableChatAlert = Config.Bind("Options", "EnabledChatAlerts", true,
             "Enables Chat Alerts when pickup status changes");
         _hotkey = Config.Bind("Options", "Hotkey", KeyCode.O,
             "You can enable/disable functionality of this mod by pressing this key.");
